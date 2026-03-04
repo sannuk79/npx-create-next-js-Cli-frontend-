@@ -113,10 +113,10 @@ import { login, register, payload } from "@/lib/payloadGuard";
 // API Route example
 export async function POST(req: Request) {
   const body = await req.json();
-  
+
   // Validate login payload - only allowed fields returned
   const safe = login(body);
-  
+
   return Response.json({ data: safe });
 }
 ```
