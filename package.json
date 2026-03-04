@@ -1,0 +1,40 @@
+{
+  "name": "create-clean-next-js",
+  "version": "1.0.1",
+  "description": "Ultra-clean Next.js starter with Tailwind, TypeScript, ESLint and payload validation",
+  "type": "module",
+  "bin": {
+    "create-clean-next-js": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "template"
+  ],
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "nextjs",
+    "react",
+    "tailwind",
+    "typescript",
+    "starter",
+    "clean",
+    "boilerplate",
+    "vite",
+    "eslint"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sannuk79/npx-create-next-js-Cli-frontend-.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sannuk79/npx-create-next-js-Cli-frontend-/issues"
+  },
+  "homepage": "https://github.com/sannuk79/npx-create-next-js-Cli-frontend-#readme",
+  "dependencies": {
+    "fs-extra": "^11.2.0"
+  }
+}
